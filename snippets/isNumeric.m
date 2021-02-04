@@ -1,4 +1,3 @@
-
 /**
 * Check if the value is numeric.
 * 
