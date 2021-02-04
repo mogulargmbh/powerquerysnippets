@@ -1,5 +1,3 @@
-  
-
 /**
 * Converts an epoch date to date. 
 * 
