@@ -26,6 +26,10 @@ We also parse the following **optional** tags:
 
 * *@version* optional version of the snippet. Just for information.
 
+* *@source* optional url where the code is from
+
+* *@result* optional description of the result of the snippet (if any)
+
 Here is a nonsene example. Browse the code to find real snippets.
 ```
 /**
@@ -37,6 +41,8 @@ Here is a nonsene example. Browse the code to find real snippets.
 * @author https://github.com/mogulargmbh
 * @version 20210121-1
 * @example just past the snippet in your query
+* @source https://github.com/mogulargmbh/powerquerysnippets
+* @result a table
 */ 
 let
   data = List.Generate(
