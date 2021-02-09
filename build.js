@@ -21,11 +21,10 @@ for(let e of entries)
   let src = path.join("./snippets", e);
   let content = fs.readFileSync(src).toString();
   let h = hash(content);
-  fs.copyFileSync(src, path.join("./docs", e));
   list.push({
     name: e,
     hash: h
   });
 }
 
-fs.writeFileSync("./docs/list.json", JSON.stringify(list));
+fs.writeFileSync("./list.json", JSON.stringify(list));
