@@ -1,6 +1,7 @@
 /**
  * Removes repeating characters of the delimiter from a string
  * 
+ * @categories text
  * @author https://github.com/ImkeF
  * @source https://github.com/ImkeF/M
  * @license MIT (c) 2017 Imke Feldmann

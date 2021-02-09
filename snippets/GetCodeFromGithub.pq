@@ -1,6 +1,7 @@
 /**
  * Fetches function code from GitHub
  * 
+ * @category web, github
  * @author https://github.com/ImkeF
  * @source https://github.com/ImkeF/M
  * @license MIT (c) 2017 Imke Feldmann

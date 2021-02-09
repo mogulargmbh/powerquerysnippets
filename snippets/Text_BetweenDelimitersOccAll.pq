@@ -2,6 +2,7 @@
  * Returns  all occurrances of text strings between a delimiter pair. Optional
  * parameter Alternative_Dummy can be used if Dummy shall not be *+*.
  * 
+ * @categories text
  * @author https://github.com/ImkeF
  * @source https://github.com/ImkeF/M
  * @license MIT (c) 2017 Imke Feldmann
