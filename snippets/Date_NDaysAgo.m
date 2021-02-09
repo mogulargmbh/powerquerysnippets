@@ -6,6 +6,5 @@
 * @author https://github.com/KiaraGrouwstra/pquery
 * @version 20210121-1
 */ 
-
 (N as number) => 
 	Date.AddDays(DateTime.FixedLocalNow(), -N)
