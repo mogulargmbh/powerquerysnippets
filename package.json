@@ -1,0 +1,23 @@
+{
+  "name": "powerquerysnippets",
+  "version": "1.0.0",
+  "description": "This is the repository for all Power Query code snippets shown on\r [PowerQueryFormatter](https://powerqueryformatter.com)",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogulargmbh/powerquerysnippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "See files",
+  "bugs": {
+    "url": "https://github.com/mogulargmbh/powerquerysnippets/issues"
+  },
+  "homepage": "https://github.com/mogulargmbh/powerquerysnippets#readme",
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
+}
