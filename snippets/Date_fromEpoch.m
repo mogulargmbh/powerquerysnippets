@@ -1,7 +1,7 @@
 /**
 * Converts an epoch date to date. 
 * 
-* @name Date_fromEpoch
+* @name Date_FromEpoch
 * @categories file, 
 * @license MIT (c) 2021 mogular
 * @author https://github.com/mogulargmbh
