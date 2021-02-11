@@ -1,7 +1,7 @@
 /**
 * Creates a calendar table in power query.
 * 
-* @name Date_generateCalendarTable
+* @name Date_GenerateCalendarTable
 * @categories date, 
 * @license MIT (c) 2021 mogular
 * @author https://github.com/mogulargmbh
