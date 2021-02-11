@@ -1,7 +1,7 @@
 /**
 * Normalizes a datetime value to the specified part.
 * 
-* @name getDateTimeNormalized
+* @name DateTime_Normalize
 * @categories DateTime, 
 * @license MIT (c) 2021 mogular
 * @author https://github.com/mogulargmbh
