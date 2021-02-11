@@ -1,7 +1,7 @@
 /**
 * Check if the value is numeric.
 * 
-* @name isNumeric
+* @name Number_IsNumeric
 * @categories datatype, 
 * @license MIT (c) 2021 mogular
 * @author https://github.com/mogulargmbh
