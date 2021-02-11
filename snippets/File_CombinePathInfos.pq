@@ -1,7 +1,7 @@
 /**
 * Combine path infos with selectable separator.
 * 
-* @name getCombinedPathInfo
+* @name File_CombinedPathInfos
 * @categories file, 
 * @license MIT (c) 2021 mogular
 * @author https://github.com/mogulargmbh
