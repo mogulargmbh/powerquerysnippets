@@ -10,12 +10,19 @@
 */ 
 (parts as list, optional separator as text) =>
   let
-      sep = if separator = null then "\" else separator,
+      sep = if (separator = null or separator ="") then "\" else separator,
       uncSeparator = sep & sep,
       isUNC = Text.StartsWith(parts{0}, uncSeparator),
-      cleanedList = List.ReplaceValue(parts, sep, "", Replacer.ReplaceText),
+      partsTable = Table.FromList(parts),
+      partsTableSplitted = Table.ExpandListColumn(
+        Table.TransformColumns(
+            partsTable, 
+                {{"Column1", Splitter.SplitTextByDelimiter(sep, QuoteStyle.None), 
+                let itemType = (type nullable text) meta [Serialized.Text = true] in type {itemType}}}
+            ), "Column1"
+        ),
       combinedPath = List.Accumulate(
-          cleanedList,
+          partsTableSplitted[Column1],
           "",
           (state, current) => 
           let
