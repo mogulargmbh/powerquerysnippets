@@ -6,7 +6,7 @@
  * @author https://github.com/ImkeF
  * @source https://github.com/ImkeF/M
  * @license MIT (c) 2017 Imke Feldmann
- * @version 1.0
+ * @version 1.0.1
  */
 let
   func = (Table as table) =>
